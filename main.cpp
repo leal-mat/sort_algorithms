@@ -1,5 +1,5 @@
 #include <iostream>
-#include "sorting_algorithms/quicksort.h"
+#include "sorting_algorithms/sorting.h"
 
 int main()
 {
@@ -8,6 +8,7 @@ int main()
     std::cout << std::endl;
     std::cout << std::endl;
 
-    std::cout << "Quick Sort" << std::endl;
-    quicksort();
+    std::cout << "Selection Sort" << std::endl;
+    std::vector<int> arr = {5, 2, 9, 1, 5, 6};
+    Sorting::selectionSort(arr);
 }
