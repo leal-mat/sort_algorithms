@@ -3,7 +3,7 @@
 
 namespace Sorting
 {
-    std::vector<int> selectionSort(std::vector<int> arr);
-    std::vector<int> quickSort(std::vector<int> arr);
-    std::vector<int> mergeSort(std::vector<int> arr);
+    std::vector<int> selectionSort(std::vector<int> &arr);
+    void quickSort(std::vector<int> &arr, int low, int high);
+    void mergeSort(std::vector<int> &arr, int left, int right);
 } // namespace Sorting
